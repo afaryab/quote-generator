@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator - History</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">✨ Quote Generator</h1>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/history" class="active">History</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="history-section">
+      <h2>Quote History</h2>
+      
+      <!-- Today's Quotes Section -->
+      <div class="today-section">
+        <h3>Today's Quotes</h3>
+        <% if (todayQuotes.length > 0) { %>
+          <div class="quotes-grid">
+            <% todayQuotes.forEach(function(quote) { %>
+              <div class="quote-card small">
+                <div class="quote-text">
+                  "<%= quote.quote %>"
+                </div>
+                <div class="quote-meta">
+                  <span class="meta-badge"><%= quote.theme %></span>
+                  <span class="meta-badge"><%= quote.tone %></span>
+                  <span class="time"><%= new Date(quote.timestamp).toLocaleTimeString() %></span>
+                </div>
+              </div>
+            <% }); %>
+          </div>
+        <% } else { %>
+          <p class="no-quotes">No quotes generated today yet.</p>
+        <% } %>
+      </div>
+
+      <!-- Historical Quotes Section -->
+      <div class="history-accordion">
+        <h3>Historical Quotes</h3>
+        <% if (history.length > 0) { %>
+          <% history.forEach(function(day, index) { %>
+            <div class="accordion-item">
+              <button class="accordion-header" onclick="toggleAccordion(this)">
+                <span class="date"><%= day.displayDate %></span>
+                <span class="count"><%= day.quotes.length %> quotes</span>
+                <span class="arrow">▼</span>
+              </button>
+              <div class="accordion-content">
+                <div class="quotes-grid">
+                  <% day.quotes.forEach(function(quote) { %>
+                    <div class="quote-card small">
+                      <div class="quote-text">
+                        "<%= quote.quote %>"
+                      </div>
+                      <div class="quote-meta">
+                        <span class="meta-badge"><%= quote.theme %></span>
+                        <span class="meta-badge"><%= quote.tone %></span>
+                        <span class="time">Hour <%= quote.hour %> - <%= new Date(quote.timestamp).toLocaleTimeString() %></span>
+                      </div>
+                    </div>
+                  <% }); %>
+                </div>
+              </div>
+            </div>
+          <% }); %>
+        <% } else { %>
+          <p class="no-quotes">No historical quotes available yet.</p>
+        <% } %>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Quote Generator. Powered by OpenAI.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleAccordion(button) {
+      const item = button.parentElement;
+      const content = item.querySelector('.accordion-content');
+      const arrow = button.querySelector('.arrow');
+      
+      // Close all other accordion items
+      document.querySelectorAll('.accordion-item').forEach(otherItem => {
+        if (otherItem !== item) {
+          otherItem.classList.remove('active');
+          otherItem.querySelector('.accordion-content').style.maxHeight = null;
+          otherItem.querySelector('.arrow').style.transform = 'rotate(0deg)';
+        }
+      });
+      
+      // Toggle current item
+      item.classList.toggle('active');
+      if (item.classList.contains('active')) {
+        content.style.maxHeight = content.scrollHeight + 'px';
+        arrow.style.transform = 'rotate(180deg)';
+      } else {
+        content.style.maxHeight = null;
+        arrow.style.transform = 'rotate(0deg)';
+      }
+    }
+  </script>
+</body>
+</html>

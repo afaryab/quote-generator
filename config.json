@@ -1,0 +1,33 @@
+{
+  "global": {
+    "theme": "inspiration",
+    "tone": "uplifting",
+    "audience": "general"
+  },
+  "hourly": {
+    "0": { "theme": "new beginnings", "tone": "motivational", "audience": "early risers" },
+    "1": { "theme": "peace", "tone": "calm", "audience": "night owls" },
+    "2": { "theme": "dreams", "tone": "inspirational", "audience": "dreamers" },
+    "3": { "theme": "determination", "tone": "strong", "audience": "persistent souls" },
+    "4": { "theme": "awakening", "tone": "gentle", "audience": "early birds" },
+    "5": { "theme": "fresh start", "tone": "energetic", "audience": "morning people" },
+    "6": { "theme": "productivity", "tone": "encouraging", "audience": "professionals" },
+    "7": { "theme": "success", "tone": "confident", "audience": "achievers" },
+    "8": { "theme": "focus", "tone": "clear", "audience": "workers" },
+    "9": { "theme": "creativity", "tone": "imaginative", "audience": "creators" },
+    "10": { "theme": "growth", "tone": "progressive", "audience": "learners" },
+    "11": { "theme": "balance", "tone": "harmonious", "audience": "seekers" },
+    "12": { "theme": "renewal", "tone": "refreshing", "audience": "everyone" },
+    "13": { "theme": "perseverance", "tone": "resilient", "audience": "fighters" },
+    "14": { "theme": "wisdom", "tone": "thoughtful", "audience": "thinkers" },
+    "15": { "theme": "joy", "tone": "cheerful", "audience": "optimists" },
+    "16": { "theme": "gratitude", "tone": "thankful", "audience": "appreciators" },
+    "17": { "theme": "reflection", "tone": "contemplative", "audience": "philosophers" },
+    "18": { "theme": "connection", "tone": "warm", "audience": "social beings" },
+    "19": { "theme": "peace", "tone": "serene", "audience": "evening relaxers" },
+    "20": { "theme": "contentment", "tone": "satisfied", "audience": "peaceful souls" },
+    "21": { "theme": "rest", "tone": "soothing", "audience": "winding down" },
+    "22": { "theme": "stillness", "tone": "quiet", "audience": "night time" },
+    "23": { "theme": "dreams", "tone": "mystical", "audience": "night dreamers" }
+  }
+}
