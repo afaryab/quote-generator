@@ -33,10 +33,6 @@ Thumbs.db
 # Testing
 coverage/
 
-# Build output
-dist/
-build/
-
 # Temporary files
 tmp/
 temp/
