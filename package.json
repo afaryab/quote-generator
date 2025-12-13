@@ -1,14 +1,14 @@
 {
   "name": "quote-generator",
   "version": "1.0.0",
-  "description": "Hourly quote generator using OpenAI with Node.js website",
-  "main": "dist/server.js",
+  "description": "Hourly quote generator using OpenAI with Gatsby static site",
   "scripts": {
-    "build": "tsc",
-    "dev": "ts-node src/server.ts",
-    "start": "node dist/server.js",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "generate": "ts-node src/scripts/generate-quote.ts",
-    "generate:prod": "node dist/scripts/generate-quote.js",
+    "generate:prod": "node dist/scripts/generate-quote.js && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,13 +16,24 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^17.2.3",
-    "ejs": "^3.1.10",
-    "express": "^5.2.1",
-    "openai": "^6.10.0"
+    "gatsby": "^5.13.0",
+    "gatsby-plugin-image": "^3.13.0",
+    "gatsby-plugin-manifest": "^5.13.0",
+    "gatsby-plugin-react-helmet": "^6.13.0",
+    "gatsby-plugin-sitemap": "^6.13.0",
+    "gatsby-source-filesystem": "^5.13.0",
+    "openai": "^6.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "@types/express": "^5.0.6",
     "@types/node": "^25.0.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }

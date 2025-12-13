@@ -3,51 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quote Generator - Latest Quote</title>
+  <title>Quote Generator - Daily Inspiration</title>
   <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-  <nav class="navbar">
-    <div class="container">
-      <h1 class="logo">✨ Quote Generator</h1>
-      <ul class="nav-links">
-        <li><a href="/" class="active">Home</a></li>
-        <li><a href="/history">History</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <main class="container">
-    <section class="latest-quote">
-      <h2>Latest Quote</h2>
-      <div class="quote-card">
+<body class="home-page">
+  <main>
+    <div class="home-quote-container">
+      <div class="quote-display animate-slide-up">
         <div class="quote-text">
-          <i class="quote-icon">"</i>
+          <span class="quote-icon">"</span>
           <%= latest.quote %>
-          <i class="quote-icon">"</i>
+          <span class="quote-icon">"</span>
         </div>
         <div class="quote-meta">
           <div class="meta-item">
-            <strong>Theme:</strong> <%= latest.theme %>
+            <span class="meta-label">Theme:</span> <%= latest.theme %>
           </div>
           <div class="meta-item">
-            <strong>Tone:</strong> <%= latest.tone %>
+            <span class="meta-label">Tone:</span> <%= latest.tone %>
           </div>
           <div class="meta-item">
-            <strong>Audience:</strong> <%= latest.audience %>
+            <span class="meta-label">Audience:</span> <%= latest.audience %>
           </div>
           <div class="meta-item">
-            <strong>Generated:</strong> <%= new Date(latest.timestamp).toLocaleString() %>
+            <span class="meta-label">Generated:</span> <%= new Date(latest.timestamp).toLocaleString() %>
           </div>
         </div>
       </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Quote Generator. Powered by OpenAI.</p>
     </div>
-  </footer>
+  </main>
 </body>
 </html>

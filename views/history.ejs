@@ -6,7 +6,7 @@
   <title>Quote Generator - History</title>
   <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
+<body class="bg-slate-50">
   <nav class="navbar">
     <div class="container">
       <h1 class="logo">✨ Quote Generator</h1>
@@ -27,14 +27,14 @@
         <% if (todayQuotes.length > 0) { %>
           <div class="quotes-grid">
             <% todayQuotes.forEach(function(quote) { %>
-              <div class="quote-card small">
+              <div class="quote-card">
                 <div class="quote-text">
                   "<%= quote.quote %>"
                 </div>
                 <div class="quote-meta">
                   <span class="meta-badge"><%= quote.theme %></span>
                   <span class="meta-badge"><%= quote.tone %></span>
-                  <span class="time"><%= new Date(quote.timestamp).toLocaleTimeString() %></span>
+                  <span class="meta-time"><%= new Date(quote.timestamp).toLocaleTimeString() %></span>
                 </div>
               </div>
             <% }); %>
@@ -58,14 +58,14 @@
               <div class="accordion-content">
                 <div class="quotes-grid">
                   <% day.quotes.forEach(function(quote) { %>
-                    <div class="quote-card small">
+                    <div class="quote-card">
                       <div class="quote-text">
                         "<%= quote.quote %>"
                       </div>
                       <div class="quote-meta">
                         <span class="meta-badge"><%= quote.theme %></span>
                         <span class="meta-badge"><%= quote.tone %></span>
-                        <span class="time">Hour <%= quote.hour %> - <%= new Date(quote.timestamp).toLocaleTimeString() %></span>
+                        <span class="meta-time">Hour <%= quote.hour %> - <%= new Date(quote.timestamp).toLocaleTimeString() %></span>
                       </div>
                     </div>
                   <% }); %>
@@ -82,7 +82,7 @@
 
   <footer>
     <div class="container">
-      <p>&copy; 2024 Quote Generator. Powered by OpenAI.</p>
+      <p>&copy; 2025 Quote Generator. Powered by OpenAI.</p>
     </div>
   </footer>
 
@@ -96,20 +96,11 @@
       document.querySelectorAll('.accordion-item').forEach(otherItem => {
         if (otherItem !== item) {
           otherItem.classList.remove('active');
-          otherItem.querySelector('.accordion-content').style.maxHeight = null;
-          otherItem.querySelector('.arrow').style.transform = 'rotate(0deg)';
         }
       });
       
       // Toggle current item
       item.classList.toggle('active');
-      if (item.classList.contains('active')) {
-        content.style.maxHeight = content.scrollHeight + 'px';
-        arrow.style.transform = 'rotate(180deg)';
-      } else {
-        content.style.maxHeight = null;
-        arrow.style.transform = 'rotate(0deg)';
-      }
     }
   </script>
 </body>
