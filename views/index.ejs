@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator - Latest Quote</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">✨ Quote Generator</h1>
+      <ul class="nav-links">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/history">History</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="latest-quote">
+      <h2>Latest Quote</h2>
+      <div class="quote-card">
+        <div class="quote-text">
+          <i class="quote-icon">"</i>
+          <%= latest.quote %>
+          <i class="quote-icon">"</i>
+        </div>
+        <div class="quote-meta">
+          <div class="meta-item">
+            <strong>Theme:</strong> <%= latest.theme %>
+          </div>
+          <div class="meta-item">
+            <strong>Tone:</strong> <%= latest.tone %>
+          </div>
+          <div class="meta-item">
+            <strong>Audience:</strong> <%= latest.audience %>
+          </div>
+          <div class="meta-item">
+            <strong>Generated:</strong> <%= new Date(latest.timestamp).toLocaleString() %>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Quote Generator. Powered by OpenAI.</p>
+    </div>
+  </footer>
+</body>
+</html>

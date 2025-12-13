@@ -1,0 +1,29 @@
+{
+  "name": "quote-generator",
+  "version": "1.0.0",
+  "description": "Hourly quote generator using OpenAI with Node.js website",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/server.ts",
+    "start": "node dist/server.js",
+    "generate": "ts-node src/scripts/generate-quote.ts",
+    "generate:prod": "node dist/scripts/generate-quote.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "openai": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
