@@ -102,5 +102,13 @@
     "audience": "everyone",
     "timestamp": "2025-12-17T12:08:20.003Z",
     "hour": 12
+  },
+  {
+    "quote": "Embrace the storms, for perseverance is the unyielding anchor that keeps fighters steady in turbulent seas.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2025-12-17T13:16:52.452Z",
+    "hour": 13
   }
 ]
