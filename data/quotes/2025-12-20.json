@@ -102,5 +102,13 @@
     "audience": "everyone",
     "timestamp": "2025-12-20T12:07:19.450Z",
     "hour": 12
+  },
+  {
+    "quote": "Forge your resilience in the fires of adversity, for it is through perseverance that warriors are sharpened and victories are crafted.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2025-12-20T13:11:41.073Z",
+    "hour": 13
   }
 ]
