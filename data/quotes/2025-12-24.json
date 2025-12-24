@@ -166,5 +166,13 @@
     "audience": "peaceful souls",
     "timestamp": "2025-12-24T20:05:47.343Z",
     "hour": 20
+  },
+  {
+    "quote": "Rest is not idleness, but a sanctuary for the weary soul to replenish its strength and rejuvenate its spirit.",
+    "theme": "rest",
+    "tone": "soothing",
+    "audience": "winding down",
+    "timestamp": "2025-12-24T21:04:45.561Z",
+    "hour": 21
   }
 ]
