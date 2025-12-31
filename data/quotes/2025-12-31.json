@@ -46,5 +46,13 @@
     "audience": "morning people",
     "timestamp": "2025-12-31T05:07:49.644Z",
     "hour": 5
+  },
+  {
+    "quote": "\"Productivity is not about doing more, but doing what truly matters with purpose and passion.\"",
+    "theme": "productivity",
+    "tone": "encouraging",
+    "audience": "professionals",
+    "timestamp": "2025-12-31T06:07:38.769Z",
+    "hour": 6
   }
 ]
