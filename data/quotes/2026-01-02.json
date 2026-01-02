@@ -166,5 +166,13 @@
     "audience": "peaceful souls",
     "timestamp": "2026-01-02T20:05:48.550Z",
     "hour": 20
+  },
+  {
+    "quote": "\"Nourish your soul with moments of gentle rest, for in the quiet spaces, true clarity and peace can be found.\"",
+    "theme": "rest",
+    "tone": "soothing",
+    "audience": "winding down",
+    "timestamp": "2026-01-02T21:04:41.390Z",
+    "hour": 21
   }
 ]
