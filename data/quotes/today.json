@@ -102,5 +102,13 @@
     "audience": "everyone",
     "timestamp": "2026-01-05T12:09:19.724Z",
     "hour": 12
+  },
+  {
+    "quote": "Embrace the storms with unwavering resolve; for it is in the fiercest tempests that the strongest warriors are forged.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-01-05T13:18:26.484Z",
+    "hour": 13
   }
 ]
