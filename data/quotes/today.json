@@ -46,5 +46,13 @@
     "audience": "achievers",
     "timestamp": "2026-01-06T07:23:54.860Z",
     "hour": 7
+  },
+  {
+    "quote": "\"Focus is not just about what you choose to see, but also what you choose to ignore.\"",
+    "theme": "focus",
+    "tone": "clear",
+    "audience": "workers",
+    "timestamp": "2026-01-06T08:27:16.972Z",
+    "hour": 8
   }
 ]
