@@ -86,5 +86,13 @@
     "audience": "everyone",
     "timestamp": "2026-01-08T12:40:14.558Z",
     "hour": 12
+  },
+  {
+    "quote": "Storms may rage and winds may howl, but the fighter who persists with unwavering resolve will always weather the fiercest tempests.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-01-08T13:38:48.953Z",
+    "hour": 13
   }
 ]
