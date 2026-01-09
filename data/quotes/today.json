@@ -30,5 +30,13 @@
     "audience": "morning people",
     "timestamp": "2026-01-09T05:23:13.565Z",
     "hour": 5
+  },
+  {
+    "quote": "\"Productivity is not about doing more, but about doing what truly matters with intention and focus.\"",
+    "theme": "productivity",
+    "tone": "encouraging",
+    "audience": "professionals",
+    "timestamp": "2026-01-09T06:30:00.814Z",
+    "hour": 6
   }
 ]
