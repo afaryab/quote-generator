@@ -150,5 +150,13 @@
     "audience": "peaceful souls",
     "timestamp": "2026-01-10T20:19:21.961Z",
     "hour": 20
+  },
+  {
+    "quote": "In the gentle embrace of rest, we find solace for the weary soul, a sanctuary where dreams dance and whispers of peace linger.",
+    "theme": "rest",
+    "tone": "soothing",
+    "audience": "winding down",
+    "timestamp": "2026-01-10T21:16:20.467Z",
+    "hour": 21
   }
 ]
