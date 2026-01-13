@@ -30,5 +30,13 @@
     "audience": "morning people",
     "timestamp": "2026-01-13T05:23:34.456Z",
     "hour": 5
+  },
+  {
+    "quote": "Embrace discipline over motivation; it's the consistent effort, not fleeting inspiration, that fuels true productivity and success.",
+    "theme": "productivity",
+    "tone": "encouraging",
+    "audience": "professionals",
+    "timestamp": "2026-01-13T06:30:10.811Z",
+    "hour": 6
   }
 ]
