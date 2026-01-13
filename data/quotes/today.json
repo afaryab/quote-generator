@@ -86,5 +86,13 @@
     "audience": "everyone",
     "timestamp": "2026-01-13T12:41:29.637Z",
     "hour": 12
+  },
+  {
+    "quote": "Through the storm of adversity, a fighter's true strength surfaces. Perseverance is the unwavering flame that ignites hope in the darkest of nights.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-01-13T13:39:24.699Z",
+    "hour": 13
   }
 ]
