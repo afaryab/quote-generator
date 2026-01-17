@@ -94,5 +94,13 @@
     "audience": "fighters",
     "timestamp": "2026-01-17T13:27:19.664Z",
     "hour": 13
+  },
+  {
+    "quote": "Wisdom is not merely found in knowing the answers, but in asking the right questions with an open heart and an inquisitive mind.",
+    "theme": "wisdom",
+    "tone": "thoughtful",
+    "audience": "thinkers",
+    "timestamp": "2026-01-17T14:16:37.302Z",
+    "hour": 14
   }
 ]
