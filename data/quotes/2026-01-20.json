@@ -102,5 +102,13 @@
     "audience": "everyone",
     "timestamp": "2026-01-20T12:09:29.936Z",
     "hour": 12
+  },
+  {
+    "quote": "Rise from the ashes of defeat with the flames of perseverance, for it is in the darkest moments that the brightest victories are forged.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-01-20T13:20:34.900Z",
+    "hour": 13
   }
 ]
