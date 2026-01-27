@@ -166,5 +166,13 @@
     "audience": "peaceful souls",
     "timestamp": "2026-01-27T20:06:16.484Z",
     "hour": 20
+  },
+  {
+    "quote": "\"A peaceful mind finds solace in the gentle embrace of rest, where dreams whisper wisdom and the soul rejuvenates in quiet surrender.\"",
+    "theme": "rest",
+    "tone": "soothing",
+    "audience": "winding down",
+    "timestamp": "2026-01-27T21:04:53.102Z",
+    "hour": 21
   }
 ]
