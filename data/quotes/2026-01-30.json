@@ -102,5 +102,13 @@
     "audience": "everyone",
     "timestamp": "2026-01-30T12:11:40.957Z",
     "hour": 12
+  },
+  {
+    "quote": "In the storm of adversity, perseverance is the unwavering anchor that guides fighters to calmer waters, revealing the strength within.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-01-30T13:26:17.682Z",
+    "hour": 13
   }
 ]
