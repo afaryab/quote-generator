@@ -102,5 +102,13 @@
     "audience": "fighters",
     "timestamp": "2026-02-01T13:19:45.275Z",
     "hour": 13
+  },
+  {
+    "quote": "Wisdom is not found in the accumulation of knowledge, but in the application of understanding to illuminate the path of truth.",
+    "theme": "wisdom",
+    "tone": "thoughtful",
+    "audience": "thinkers",
+    "timestamp": "2026-02-01T14:08:53.244Z",
+    "hour": 14
   }
 ]
