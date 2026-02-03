@@ -102,5 +102,13 @@
     "audience": "fighters",
     "timestamp": "2026-02-03T13:29:05.623Z",
     "hour": 13
+  },
+  {
+    "quote": "Wisdom is not merely knowing, but understanding; not merely speaking, but listening; not merely seeing, but perceiving.",
+    "theme": "wisdom",
+    "tone": "thoughtful",
+    "audience": "thinkers",
+    "timestamp": "2026-02-03T14:19:48.307Z",
+    "hour": 14
   }
 ]
