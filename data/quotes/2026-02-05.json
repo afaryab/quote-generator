@@ -102,5 +102,13 @@
     "audience": "fighters",
     "timestamp": "2026-02-05T13:30:05.343Z",
     "hour": 13
+  },
+  {
+    "quote": "\"Wisdom is not just in knowing the answers, but in asking the right questions.\"",
+    "theme": "wisdom",
+    "tone": "thoughtful",
+    "audience": "thinkers",
+    "timestamp": "2026-02-05T14:20:01.960Z",
+    "hour": 14
   }
 ]
