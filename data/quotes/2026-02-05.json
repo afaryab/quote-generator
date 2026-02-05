@@ -94,5 +94,13 @@
     "audience": "everyone",
     "timestamp": "2026-02-05T12:13:09.931Z",
     "hour": 12
+  },
+  {
+    "quote": "In the face of adversity, perseverance is the warrior's relentless heartbeat, echoing the unwavering spirit that refuses to surrender.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-02-05T13:30:05.343Z",
+    "hour": 13
   }
 ]
