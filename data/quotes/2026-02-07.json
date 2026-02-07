@@ -102,5 +102,13 @@
     "audience": "everyone",
     "timestamp": "2026-02-07T12:08:30.333Z",
     "hour": 12
+  },
+  {
+    "quote": "Through storms of doubt and valleys of struggle, the fighter's heart beats a rhythm of resilience, fueled by the unwavering flame of perseverance.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-02-07T13:19:47.845Z",
+    "hour": 13
   }
 ]
