@@ -158,5 +158,13 @@
     "audience": "peaceful souls",
     "timestamp": "2026-02-10T20:15:50.410Z",
     "hour": 20
+  },
+  {
+    "quote": "Rest is not just a pause, but a melody that soothes the symphony of our souls, guiding us to find harmony in the quiet spaces within.",
+    "theme": "rest",
+    "tone": "soothing",
+    "audience": "winding down",
+    "timestamp": "2026-02-10T21:17:17.502Z",
+    "hour": 21
   }
 ]
