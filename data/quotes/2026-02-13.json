@@ -94,5 +94,13 @@
     "audience": "everyone",
     "timestamp": "2026-02-13T12:12:43.959Z",
     "hour": 12
+  },
+  {
+    "quote": "Rise from the ashes of defeat, for perseverance is the forge where warriors are tempered and victory is forged.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-02-13T13:28:59.783Z",
+    "hour": 13
   }
 ]
