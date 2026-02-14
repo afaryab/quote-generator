@@ -6,5 +6,13 @@
     "audience": "early risers",
     "timestamp": "2026-02-14T00:24:48.792Z",
     "hour": 0
+  },
+  {
+    "quote": "In the whispers of the night, peace finds its true home, cradling the weary souls in its gentle embrace, whispering solace to the restless hearts.",
+    "theme": "peace",
+    "tone": "calm",
+    "audience": "night owls",
+    "timestamp": "2026-02-14T01:35:49.000Z",
+    "hour": 1
   }
 ]
