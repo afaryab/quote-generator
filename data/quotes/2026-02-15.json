@@ -38,5 +38,13 @@
     "audience": "morning people",
     "timestamp": "2026-02-15T05:28:26.125Z",
     "hour": 5
+  },
+  {
+    "quote": "\"Productivity is not about doing more, but doing better. Focus on meaningful actions that move you closer to your goals.\"",
+    "theme": "productivity",
+    "tone": "encouraging",
+    "audience": "professionals",
+    "timestamp": "2026-02-15T06:19:50.868Z",
+    "hour": 6
   }
 ]
