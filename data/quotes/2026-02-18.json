@@ -94,5 +94,13 @@
     "audience": "everyone",
     "timestamp": "2026-02-18T12:14:31.208Z",
     "hour": 12
+  },
+  {
+    "quote": "In the face of adversity, perseverance is the relentless roar of the fighter's spirit, refusing to be silenced by the storm.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-02-18T13:31:24.862Z",
+    "hour": 13
   }
 ]
