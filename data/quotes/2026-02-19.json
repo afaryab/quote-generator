@@ -102,5 +102,13 @@
     "audience": "fighters",
     "timestamp": "2026-02-19T13:33:48.842Z",
     "hour": 13
+  },
+  {
+    "quote": "\"True wisdom lies not in knowing all the answers, but in asking the right questions.\"",
+    "theme": "wisdom",
+    "tone": "thoughtful",
+    "audience": "thinkers",
+    "timestamp": "2026-02-19T14:24:09.915Z",
+    "hour": 14
   }
 ]
