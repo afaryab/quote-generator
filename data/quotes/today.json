@@ -150,5 +150,13 @@
     "audience": "winding down",
     "timestamp": "2026-02-21T21:22:28.376Z",
     "hour": 21
+  },
+  {
+    "quote": "Embrace the profound silence of night; in stillness, find the whispers of your soul, guiding you to deeper truths.",
+    "theme": "stillness",
+    "tone": "quiet",
+    "audience": "night time",
+    "timestamp": "2026-02-21T22:22:11.941Z",
+    "hour": 22
   }
 ]
