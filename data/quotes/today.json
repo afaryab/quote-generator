@@ -102,5 +102,13 @@
     "audience": "everyone",
     "timestamp": "2026-03-05T12:14:31.832Z",
     "hour": 12
+  },
+  {
+    "quote": "In the face of adversity, perseverance is the warrior's shield, fortifying their spirit with unyielding strength to conquer every battle.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-03-05T13:30:34.201Z",
+    "hour": 13
   }
 ]
