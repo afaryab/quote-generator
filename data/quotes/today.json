@@ -6,5 +6,13 @@
     "audience": "early risers",
     "timestamp": "2026-03-06T00:29:50.129Z",
     "hour": 0
+  },
+  {
+    "quote": "In the quiet of the night, may peace be your compass, guiding you through the darkness with a gentle whisper of serenity.",
+    "theme": "peace",
+    "tone": "calm",
+    "audience": "night owls",
+    "timestamp": "2026-03-06T01:36:36.852Z",
+    "hour": 1
   }
 ]
