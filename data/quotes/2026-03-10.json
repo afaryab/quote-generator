@@ -102,5 +102,13 @@
     "audience": "everyone",
     "timestamp": "2026-03-10T12:14:18.050Z",
     "hour": 12
+  },
+  {
+    "quote": "Embrace the storms that test your strength, for only through relentless perseverance do warriors forge the unbreakable spirit that conquers all challenges.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-03-10T13:31:19.525Z",
+    "hour": 13
   }
 ]
