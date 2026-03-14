@@ -46,5 +46,13 @@
     "audience": "morning people",
     "timestamp": "2026-03-14T05:23:57.895Z",
     "hour": 5
+  },
+  {
+    "quote": "\"Productivity is not about working harder, but about working smarter, focusing on what truly matters and moving with purpose.\"",
+    "theme": "productivity",
+    "tone": "encouraging",
+    "audience": "professionals",
+    "timestamp": "2026-03-14T06:18:09.626Z",
+    "hour": 6
   }
 ]
