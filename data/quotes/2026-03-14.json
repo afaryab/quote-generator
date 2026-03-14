@@ -102,5 +102,13 @@
     "audience": "everyone",
     "timestamp": "2026-03-14T12:10:43.990Z",
     "hour": 12
+  },
+  {
+    "quote": "Perseverance is the warrior's shield, forged in the fires of adversity to deflect every arrow of doubt and obstacle in their path.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-03-14T13:22:15.326Z",
+    "hour": 13
   }
 ]
