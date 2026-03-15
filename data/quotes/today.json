@@ -94,5 +94,13 @@
     "audience": "everyone",
     "timestamp": "2026-03-15T12:12:24.186Z",
     "hour": 12
+  },
+  {
+    "quote": "Perseverance is the relentless warrior within, refusing to surrender in the face of adversity, forging strength from the fires of struggle.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-03-15T13:23:26.863Z",
+    "hour": 13
   }
 ]
