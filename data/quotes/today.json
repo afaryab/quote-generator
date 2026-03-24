@@ -6,5 +6,13 @@
     "audience": "early risers",
     "timestamp": "2026-03-24T00:24:14.423Z",
     "hour": 0
+  },
+  {
+    "quote": "In the deep silence of the night, may peace be your companion, guiding your thoughts towards serenity and your heart towards tranquility.",
+    "theme": "peace",
+    "tone": "calm",
+    "audience": "night owls",
+    "timestamp": "2026-03-24T01:37:12.950Z",
+    "hour": 1
   }
 ]
