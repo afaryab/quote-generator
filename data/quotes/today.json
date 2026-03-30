@@ -94,5 +94,13 @@
     "audience": "everyone",
     "timestamp": "2026-03-30T12:22:10.331Z",
     "hour": 12
+  },
+  {
+    "quote": "Adversity seeks to break you, but perseverance molds you into the indomitable warrior you were destined to become.",
+    "theme": "perseverance",
+    "tone": "resilient",
+    "audience": "fighters",
+    "timestamp": "2026-03-30T13:35:29.092Z",
+    "hour": 13
   }
 ]
