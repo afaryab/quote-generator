@@ -2,22 +2,14 @@
 
 An automated hourly quote generator powered by OpenAI that creates original, meaningful quotes with configurable themes, tones, and audiences. Built with Gatsby.js for a modern, fast static site with GraphQL data sourcing.
 
-## Features
+## ✨ Features
 
-- 🤖 **Automated Hourly Generation**: GitHub Actions workflow generates new quotes every hour
-- ⚛️ **Gatsby.js Static Site**: Modern static site generator with React and GraphQL
-- 📊 **GraphQL Data Sourcing**: Efficient queries from JSON files in the `/data/quotes` directory
-- 🎨 **Configurable Parameters**: Theme, tone, and audience customizable per hour and globally
-- 💾 **Smart Data Storage**: 
-  - Day-wise JSON files with hourly quotes
-  - `today.json` for current day's quotes
-  - `latest.json` for the most recent quote
-- 🌐 **Beautiful Web Interface**:
-  - Home page: Full-screen display of the latest quote with soft gradient background
-  - History page: Today's quotes + date-wise collapsible accordion for historical quotes
-  - Full-width blockquote list view with hover animations
-- 📝 **100% TypeScript**: All components written in TSX with full type safety
-- 🎨 **Tailwind CSS**: Modern, responsive design with Material Design aesthetic
+- **🎯 Clean, Focused Design**: Minimalist black and white interface with perfect center alignment
+- **📱 Responsive Layout**: Beautiful on all devices with adaptive typography
+- **⏰ Daily Quotes**: AI-generated inspirational quotes updated hourly
+- **📅 Timeline View**: Modern timeline interface with dated bullet circles
+- **🎨 Modern UI**: Sleek design inspired by contemporary web standards
+- **⚡ Fast Performance**: Built with Gatsby and optimized for speed
 - 🚀 **Production Ready**: Deploy anywhere - Netlify, Vercel, GitHub Pages, or any static host
 
 ## Tech Stack
@@ -183,7 +175,6 @@ quote-generator/
 ├── gatsby-node.js                  # GraphQL node creation
 ├── gatsby-browser.js               # Browser API
 ├── tsconfig.json                   # TypeScript config
-├── tailwind.config.js              # Tailwind configuration
 ├── postcss.config.js               # PostCSS configuration
 ├── config.json                     # Quote generation settings
 └── package.json                    # Dependencies
@@ -264,9 +255,9 @@ Simply deploy the `public/` directory to any static hosting service.
 
 ### Customizing the Design
 
-- **Colors**: Edit `tailwind.config.js`
+- **Colors**: Edit the `@theme` block in `src/styles/global.css`
 - **Styles**: Edit `src/styles/global.css`
-- **Fonts**: Modify CSS in `src/styles/global.css` or `tailwind.config.js`
+- **Fonts**: Modify the `@theme` block in `src/styles/global.css`
 - **Components**: Create new components in `src/components/`
 
 ### Adding New Fields

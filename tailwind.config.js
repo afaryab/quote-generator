@@ -1,26 +1,37 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}',
-    './public/**/*.html',
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        primary: {
-          50: '#f0f4ff',
-          100: '#e0e9ff',
-          500: '#667eea',
-          600: '#5568d3',
-          700: '#4c51bf',
-        },
-        secondary: {
-          500: '#764ba2',
-          600: '#6b3fa0',
-        },
+        black: "#000000",
+        white: "#ffffff",
       },
       fontFamily: {
-        sans: ['Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
+        sans: [
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "'Segoe UI'",
+          "'Roboto'",
+          "'Oxygen'",
+          "'Ubuntu'",
+          "'Cantarell'",
+          "'Fira Sans'",
+          "'Droid Sans'",
+          "'Helvetica Neue'",
+          "sans-serif",
+        ],
+      },
+      animation: {
+        "fade-in": "fadeIn 0.5s ease-in",
+      },
+      keyframes: {
+        fadeIn: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
       },
     },
   },

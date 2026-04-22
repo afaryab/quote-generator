@@ -16,13 +16,17 @@ export default function Layout({ children, isHomePage }: LayoutProps) {
         }
 
         html, body {
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+            sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
           line-height: 1.6;
-          color: #333;
+          color: #000;
         }
 
         body {
-          ${isHomePage ? 'background: linear-gradient(to bottom right, #f8fafc, #e0e7ff, #fce7f3);' : 'background-color: #f8fafc;'}
+          background-color: #ffffff;
           ${isHomePage ? 'min-height: 100vh;' : ''}
           display: flex;
           flex-direction: column;
